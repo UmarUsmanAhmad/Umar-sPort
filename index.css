@@ -1,0 +1,97 @@
+*{
+    color: white;
+    background-color: black;
+}
+.image{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 500px;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+   
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    background-color: transparent;
+}
+nav ul li a::after{
+    content: '';
+    background: red;
+    width: 0;
+    height: 3px;
+    position:absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 80px;
+    width: 70%;
+    position:relative;
+    background-color: transparent;
+}
+.h2{
+    background-color: transparent;
+    margin-right: 100px;
+    
+}
+.par{
+    color: red;
+    font-size: 20px;
+    background-color: transparent;
+}
+.header1{
+    text-align: center;
+}
+.welcome{
+    position: absolute;
+    background-color: transparent;
+    margin-left: 150px;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.ulist{
+    margin-top: 80px;
+    margin-left: 110px;
+}
+.header-cal{
+    text-align: center;
+}
+.add-text{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.answer{
+    margin-top: 20px;
+}
+.about-me{
+color: white;
+background-color: black;
+text-align: center;
+font-size: 2rem;
+}
