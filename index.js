@@ -7,7 +7,7 @@ buttons.forEach(button => {
     button.addEventListener("click",Calculate);
 })
 
- function Calculate(){
+  function Calculate(){
  var buttontext = this.innerText;
  if(buttontext==="AC"){
     box.value="";

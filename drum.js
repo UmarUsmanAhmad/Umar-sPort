@@ -5,7 +5,7 @@ buttons.forEach(button =>{
     button.addEventListener("click",drumfun)
 })
 
-function drumfun(){
+ function drumfun(){
     var buttText=this.innerHTML;
     makesound(buttText);
     }
