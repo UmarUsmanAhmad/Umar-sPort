@@ -21,7 +21,7 @@ buttons.forEach(button => {
     var result=box.value=eval(box.value);
     return(result);
 }
- else{
+  else{
     box.value += buttontext;
     return;
  }

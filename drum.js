@@ -8,7 +8,7 @@ buttons.forEach(button =>{
  function drumfun(){
     var buttText=this.innerHTML;
     makesound(buttText);
-    }
+     }
 
 
 document.addEventListener("keypress",function(event){
